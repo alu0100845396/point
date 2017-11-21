@@ -101,8 +101,6 @@ module Point
     def each #:nodoc:
       # los comentarios locales a los métodos no generan documentación
       yield @x
-      yield @x
-      yield @y
       yield @y
     end
   end
